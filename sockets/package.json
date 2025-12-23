@@ -1,0 +1,17 @@
+{
+  "name": "terminal-websocket-chat",
+  "version": "1.0.0",
+  "description": "Simple terminal-based WebSocket chat with two clients",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "user1": "node user1.js",
+    "user2": "node user2.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
+
+
